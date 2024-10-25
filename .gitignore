@@ -24,3 +24,4 @@ snap/
 
 # Add any other files or directories you want to ignore
 littletiers/node_modules
+node_modules/
