@@ -1,0 +1,17 @@
+{
+  "name": "littletiers",
+  "version": "1.0.0",
+  "description": "VM App ",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start $(pwd)/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alvisprieditis.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "lowdb": "^1.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+# Ignore shell history and configuration files
+.bash_history
+.bashrc
+.profile
+.wget-hsts
+
+# Ignore cache and temporary files
+.cache/
+.cloud-locale-test.skip
+.digitalocean_passwords
+
+# Ignore npm and PM2 directories
+.npm/
+.pm2/
+
+# Ignore SSH configuration
+.ssh/
+
+# Ignore nodesource setup script
+nodesource_setup.sh
+
+# Ignore snap directory
+snap/
+
+# Add any other files or directories you want to ignore
